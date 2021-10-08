@@ -1,11 +1,12 @@
 import logo from './logo.svg';
+import ModelWidget from './model';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <ModelWidget className="model"/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
